@@ -30,7 +30,7 @@
 
                 //cursor design - 상단 메뉴, 바이오 li
                 $("header .wrap nav ul.gnb li.list a").hover(function(){
-                   $(this).css({'cursor':'url(img/cursor.svg) 50 50,auto'});
+                   $(this).css({'cursor':'url(img/cursor.svg) 50 50,default'});
                 });
 
                 //메뉴 페이지 
@@ -130,7 +130,7 @@
 
                 //bio. li detail slidetoggle
                 $("#about .wrap .list .part ul li").hover(function(){
-                    $(this).has(".plustxt").css({'cursor':'url(img/cursor.svg) 50 50, pointer'});
+                    $(this).has(".plustxt").css({'cursor':'url(img/cursor.svg) 50 50, default'});
                 });
                 $("#about .wrap .list .part .edu li").click(function(){;    
                     $(this).children(".plustxt").slideToggle();
