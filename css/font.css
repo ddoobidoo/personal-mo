@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Silk-Serif-Regular';
+    src: url('../fonts/Silk-Serif-Regular.woff') format('woff');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Silk-Serif-SemiBold';
+    src: url('../fonts/Silk-Serif-SemiBold.woff') format('woff');
+    font-weight: bold;
+}

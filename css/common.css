@@ -1,0 +1,56 @@
+  .wrap{
+    width: 90%;
+    margin: 0 auto;
+    padding:50px 0;
+  }
+  .block{
+    display: block;
+  }
+  .h2{
+    font-size: 250px;
+    font-family: 'Silk-Serif-SemiBold';
+    font-weight: bold;
+    line-height: 0.7;
+  }
+  .h3{
+    font-family: 'Silk-Serif-Regular';
+    font-weight: bold;
+    font-size: 25px;
+    color: cornflowerblue;
+  }
+  .more{
+  display: block;
+  font-size: 20px;
+  color: cornflowerblue;
+  text-decoration: none;
+  width: 100px;
+  height: 30px;
+  margin: 0 auto;
+  margin-top: 0px;
+  margin-top: 100px;
+  padding: 25px 0;
+  position: relative;
+  transition: all 0.3s;
+  text-align: center;
+  }  
+  .more::after{
+  content: "";
+  display: block;
+  width: 160px;
+  height: 50px;
+  border: 1px solid cornflowerblue;
+  border-radius: 50%;
+  position: absolute;
+  top: calc(50% - 28px);
+  left: calc(50% - 80px);
+  transition: all 0.3s;
+  }
+  .more:hover::after{
+  content: "";
+  border: 1px solid #666;
+  }
+  .more:hover{
+  color: #666;
+  }
+
+  
